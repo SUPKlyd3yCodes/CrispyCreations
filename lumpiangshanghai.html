@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumpiang Shanghai | CRISPY CREATIONS</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Jockey+One" />
+    <link href='https://fonts.googleapis.com/css?family=Jockey One' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="structure.css">
+    <link rel="stylesheet" type="text/css" href="pagetransition.css">
+    <link rel="stylesheet" type="text/css" href="product.css">
+    
+    <style>
+        body {
+            overflow-x: hidden;
+            margin: 0%;
+            font-family: "Jockey One";
+            background-color: beige;
+        }
+        
+        .header {
+            border: 0px;
+        }
+        
+        
+        
+        img {
+            width: 200px;
+            height: 200px;
+        }
+        
+        .producttype {
+            background-color: white;
+            width: 100px;
+            border: 0px solid black;
+            border-radius: 4px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<div>
+    <div id="headerplace">
+        <div class="header">
+            <div class="headerchild">
+                <div class="headerleft">
+                    <div style="text-align: center;">
+                        <img src="logo.png" id="logo"> <br> 
+                    </div> 
+                </div>
+                <div class="headerright"> 
+                    <button id="homebutton" onclick="window.location.href = 'index.html';">HOME</button>
+
+                    <button id="productbutton" onclick="window.location.href = 'lumpianggulay.html';">LUMPIANG GULAY</button> 
+
+                    <button id="loginbutton" onclick="window.location.href = 'lumpiangshanghai.html';">LUMPIANG SHANGHAI</button> 
+
+                    <button id="createbutton" onclick="window.location.href = 'vandm.html';">VISION AND MISSION</button> 
+                </div> 
+                
+                
+                <div style="font-size: 40px; display: flex; justify-content: center;">
+                    <img src="starless.png" id="star" onclick="changeimage(this)" />
+                </div> 
+                <br>
+            </div>
+        </div>
+        <div id="headertext">
+            <h1>CRISPY CREATIONS</h1>
+            Where every bite is a trip to your crunchy adventure!
+        </div>
+    </div>
+    </div>
+</div>
+<br><br><br><br><br>
+<div style="display: flex; justify-content: space-around;">
+    <img src="lumpiangshanghai.jpg" style="width: 70%; height: 100%;" class="lead">
+    <div style="height: 600px; display: flex; justify-content: space-around; flex-direction: column; margin-left: 10px;">
+        <div>
+            <h1>Lumpiang Shanghai</h1>
+            <h2>Lumpiang Shanghai is regarded as the most basic type of lumpia<br> in Filipino cuisine, and it is usually smaller and thinner than other lumpia variants.</h2>
+        </div>
+    </div>
+</div>
+    
+<br><br><br><br><br>
+
+<div style="display: flex; justify-content: center; height: 40-rem; width: 100%; font-size: xx-large;">INGREDIENTS</div>
+
+<div class="content">
+    <div class="contentLeft">
+        <div style="margin-top: 10px; overflow-y: scroll;">
+            <div class="grid-wrapper">
+                <div class="big">
+                    <div id="carrots" class="image">
+                        <p>Carrots</p>
+                    </div>
+                </div>
+                <div class="tall">
+                    <div id="celery" class="image">
+                        <p>Celery</p>
+                    </div>
+                </div>
+                <div class="tall">
+                    <div id="chicken" class="image">
+                        <p>Chicken</p>
+                    </div>
+                </div>
+                <div style="grid-row: span 3;">
+                    <div id="egg" class="image">
+                        <p>Egg</p>
+                    </div>
+                </div>
+                <div class="big"  style="grid-row: span 3;">
+                    <div id="garlicpowder" class="image">
+                        <p>Garlic Powder</p>
+                    </div>
+                </div>
+                <div class="tall">
+                    <div id="sesameoil" class="image">
+                        <p>Sesame Oil</p>
+                    </div>
+                </div>
+                <div class="wide">
+                    <div id="wrapper" class="image">
+                        <p>Lumpia Wrapper</p>
+                    </div>
+                </div>
+                <div class="big" style="grid-row: span 3;">
+                    <div id="oil" class="image">
+                        <p>Oil</p>
+                    </div>
+                </div>
+                <div class="big">
+                    <div id="onion" class="image">
+                        <p>Onion</p>
+                    </div>
+                </div>
+                <div class="tall">
+                    <div id="pepper" class="image">
+                        <p>Pepper</p>
+                    </div>
+                </div>
+                <div>
+                    <div id="salt" class="image">
+                        <p>Salt</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+
+
+
+
+<div class="foot">
+    
+    <div style="flex-direction: column; display: flex; justify-content: space-around; text-align: center;">
+        <div style="margin: 0px auto;">Feedback?</div>
+        <a href="mailto:crispycreationsco1@gmail.com?subject=Mail to the Site" class="fa fa-google" style="margin: 0px auto;"></a>
+    </div>
+</div>
+    
+    
+
+<script>
+    function changeimage(image) {
+        image.src = 'star.png';
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vision and Mission | CRISPY CREATIONS</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Jockey+One" />
+    <link href='https://fonts.googleapis.com/css?family=Jockey One' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="structure.css">
+    <link rel="stylesheet" type="text/css" href="pagetransition.css">
+    
+    <style>
+        body {
+            overflow-x: hidden;
+            margin: 0%;
+            font-family: "Jockey One";
+            background-color: beige;
+        }
+        
+        .header {
+            border: 0px;
+        }
+        
+        
+        
+        img {
+            width: 200px;
+            height: 200px;
+        }
+        
+        .producttype {
+            background-color: white;
+            width: 100px;
+            border: 0px solid black;
+            border-radius: 4px;
+            margin: 5px;
+        }
+        
+        .content {
+            width: 90%;
+            background-color: #df621529;
+            opacity: 95%;
+            margin: 80px auto;
+            border-radius: 10px;
+            box-shadow: 
+            rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, 
+            rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, 
+            rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+            height: 800px;
+            padding: 10px;
+        }
+        
+        .content::after {    
+            content: "";
+            background-image: url('bgschool.jpg');
+            background-size: cover;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            left: 0px;
+        }
+        
+        p {
+            margin: 40px; font-size: 25px;
+        }
+        @media only screen and (max-width: 480px) {
+            p {
+            margin: 40px; font-size: 15px;
+            }
+        }
+    </style>
+</head>
+<div>
+    <div id="headerplace">
+        <div class="header">
+            <div class="headerchild">
+                <div class="headerleft">
+                    <div style="text-align: center;">
+                        <img src="logo.png" id="logo"> <br> 
+                    </div> 
+                </div>
+                <div class="headerright"> 
+                    <button id="homebutton" onclick="window.location.href = 'index.html';">HOME</button>
+
+                    <button id="productbutton" onclick="window.location.href = 'lumpianggulay.html';">LUMPIANG GULAY</button> 
+
+                    <button id="loginbutton" onclick="window.location.href = 'lumpiangshanghai.html';">LUMPIANG SHANGHAI</button> 
+
+                    <button id="createbutton" onclick="window.location.href = 'vandm.html';">VISION AND MISSION</button> 
+                </div> 
+                
+                
+                <div style="font-size: 40px; display: flex; justify-content: center;">
+                    <img src="starless.png" id="star" onclick="changeimage(this)" />
+                </div> 
+                <br>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="headertext">
+    <h1>CRISPY CREATIONS</h1>
+    Where every bite is a trip to your crunchy adventure!
+</div>
+
+
+<div class="content">
+    <div style="margin: 0 auto; font-size: 40px; text-align: center;">Vision</div>
+    <p>
+        As a student-run enterprise, our vision at Crispy Creations is to become the leading provider of nutritious and delicious Filipino snacks for parents and teachers in our community. We aim to create a sustainable business model that offers valuable learning opportunities and inspiration for student entrepreneurs on the campus of PISQ while meeting the changing needs and preferences of our customers. We strive to build a positive and lasting impact on the health and well-being of our community and to inspire student entrepreneurs to pursue their passions and create positive change in the world.
+    </p>
+    
+    <div style="margin: 0 auto; font-size: 40px; text-align: center;">Mission</div>
+    <p >
+        At Crispy Creations, our mission is to provide parents and teachers with high-quality and affordable lumpiang gulay and lumpiang shanghai made with fresh and locally sourced ingredients. We are committed to upholding the highest standards of quality, hygiene, and customer service in every aspect of our business, from preparation to packaging to delivery. As a student-run enterprise, we believe in the power of education, innovation, and entrepreneurship to create a positive social and economic impact. Our purpose is to establish a sustainable and profitable business that benefits not only our customers but also our team of student entrepreneurs and the wider community. 
+    </p>
+    
+    
+    
+    
+</div>
+
+
+<div class="foot">
+    
+    <div style="flex-direction: column; display: flex; justify-content: space-around; text-align: center;">
+        <div style="margin: 0px auto;">Feedback?</div>
+        <a href="mailto:crispycreationsco1@gmail.com?subject=Mail to the Site" class="fa fa-google" style="margin: 0px auto;"></a>
+    </div>
+</div>
+
+<script>
+    function changeimage(image) {
+        image.src = 'star.png';
+    }
+</script>
+</body>
+</html>

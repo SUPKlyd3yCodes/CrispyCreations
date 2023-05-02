@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage | CRISPY CREATIONS</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Jockey+One" />
+    <link href='https://fonts.googleapis.com/css?family=Jockey One' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="structure.css">
+    <link rel="stylesheet" type="text/css" href="pagetransition.css">
+    
+    <style>
+        body {
+            overflow-x: hidden;
+            margin: 0%;
+            font-family: "Jockey One";
+            background-color: beige;
+        }
+        
+        .header {
+            border: 0px;
+        }
+        
+        
+        
+        img {
+            width: 200px;
+            height: 200px;
+        }
+        
+        .producttype {
+            background-color: white;
+            width: 100px;
+            border: 0px solid black;
+            border-radius: 4px;
+            margin: 5px;
+        }
+        
+        .content {
+            width: 90%;
+            background-color: #df621529;
+            opacity: 95%;
+            margin: 100px auto;
+            border-radius: 10px;
+            box-shadow: 
+            rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, 
+            rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, 
+            rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+            height: 750px;
+            padding: 20px;
+            font-size: 30px;
+        }
+        
+        .foot {
+            width: 100%;
+            background-color: #df621529;
+            opacity: 95%;
+            margin: 0px auto;
+            border-radius: 10px;
+            box-shadow: 
+            rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, 
+            rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, 
+            rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+            height: 100px;
+            padding: 20px;
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+        }
+
+        p {
+            margin: 40px; font-size: 25px;
+        }
+        @media only screen and (max-width: 480px) {
+            p {
+            margin: 40px; font-size: 15px;
+            }
+        }
+    </style>
+</head>
+<div>
+    <div id="headerplace">
+        <div class="header">
+            <div class="headerchild">
+                <div class="headerleft">
+                    <div style="text-align: center;">
+                        <img src="logo.png" id="logo"> <br> 
+                    </div> 
+                </div>
+                <div class="headerright"> 
+                    <button id="homebutton" onclick="window.location.href = 'index.html';">HOME</button>
+                    
+                    <button id="productbutton" onclick="window.location.href = 'lumpianggulay.html';">LUMPIANG GULAY</button> 
+                    
+                    <button id="loginbutton" onclick="window.location.href = 'lumpiangshanghai.html';">LUMPIANG SHANGHAI</button> 
+                    
+                    <button id="createbutton" onclick="window.location.href = 'vandm.html';">VISION AND MISSION</button> 
+                </div> 
+                
+                
+                <div style="font-size: 40px; display: flex; justify-content: center;">
+                    <img src="starless.png" id="star" onclick="changeimage(this)" />
+                </div> 
+                <br>
+            </div>
+        </div>
+        <div id="headertext">
+            <h1>CRISPY CREATIONS</h1>
+            Where every bite is a trip to your crunchy adventure!
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="bottomheader">
+    <div style="flex-direction: column; display: flex; justify-content: space-around; text-align: center;">
+        Remember The Date
+        <div class="iconcontain"><img src="calendar.png" class="headericons"></div>
+        MAY 10, 2023
+    </div>
+    <div style="flex-direction: column; display: flex; justify-content: space-around; text-align: center;">
+        location
+        <div class="iconcontain"><img src="location.png" class="headericons"></div>
+        PISQ Campus
+    </div>
+    <div style="flex-direction: column; display: flex; justify-content: space-around; text-align: center;">
+        Brought to you by
+        <div class="iconcontain"><img src="nine.png" class="headericons"></div>
+        Integrity
+    </div>
+</div>
+
+<div class="content">
+    Dear Parents and Teachers,
+    <p>
+        We are excited to introduce our new online store that specializes in selling lumpiang gulay and lumpiang shanghai. As students, we understand the importance of providing nutritious and delicious meals to ourselves and our loved ones.
+    </p>
+    <p>
+        Our website and business, Crispy Creations, offers a convenient way for you to see and enjoy our products in the comfort of your home or workplace. We take pride in using only fresh and high-quality ingredients, and we ensure that our lumpia are prepared with utmost care and hygiene.
+    </p>
+    <p>
+        We also offer a variety of options to choose from, including vegetarian and meat-based lumpia, and we can cater to large orders for school events or parties.
+    </p>
+    <p>
+        We would like to invite you to visit our website and try our lumpia for yourself. We are confident that you will love them as much as we do. If you have any questions or feedback, please do not hesitate to reach out to us using the email in the footer of this website.
+    </p>
+    
+    <p>
+        Thank you for considering our products, and we look forward to serving you soon.
+    </p>
+    
+    <p>
+        Sincerely, CRISPY CREATIONS
+    </p>
+    
+</div>
+<div style="display: flex; justify-content: space-around;">
+    <img src="lumpiangshanghai.jpg" style="width: 70%; height: 100%;" class="lead">
+    <div style="height: 600px; display: flex; justify-content: space-around; flex-direction: column; margin-left: 10px;">
+        <div>
+            <h2>Lumpiang Shanghai</h2>
+            <h4><a href="lumpiangshanghai.html">Click Here</a></h4>
+        </div>
+    </div>
+</div>
+
+<br><br><br><br><br><br><br><br><br><br>
+<div style="display: flex; justify-content: space-around;">
+    
+    <div style="height: 600px; display: flex; justify-content: space-around; flex-direction: column; margin-right: 10px;">
+        <div style="text-align: right;">
+            <h2>Lumpiang Gulay</h2>
+            <h4><a href="lumpianggulay.html">Click Here</a></h4>
+        </div>
+    </div>
+    <img src="lumpianggulay.jpg" style="width: 70%; height: 100%; "  class="lead">
+</div>
+<br><br><br><br><br><br><br><br><br><br>
+
+
+<div class="foot">
+    
+    <div style="flex-direction: column; display: flex; justify-content: space-around; text-align: center;">
+        <div style="margin: 0px auto;">Feedback?</div>
+        <a href="mailto:crispycreationsco1@gmail.com?subject=Mail to the Site" class="fa fa-google" style="margin: 0px auto;"></a>
+    </div>
+</div>
+
+
+
+<script>
+    function changeimage(image) {
+        image.src = 'star.png';
+    }
+</script>
+</body>
+</html>
